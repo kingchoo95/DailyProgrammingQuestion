@@ -16,10 +16,7 @@ function wellFormed(){
   //only three types of bracket -> () [] {}
   var string = "([)]";
   var splitString = string.split("");
-  
-  var tempRoundtPos;
-  var tempCurlyPos;
-  var tempAquarePos;
+
   
   var tempNum=0; 
   var count = 1;
